@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.topbar{
+    background-color: cadetblue;
+    overflow: hidden;
+}
+.topbar a{
+    float: left;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: cornsilk;
+}
+h1{
+    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
+}
+h1 span {
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.width-mesurement{
+    width: 25%;
+    padding: 2%;
+    margin: auto;
+}
+.half-width img{
+    width: 80%;
+}
+.width-mesurement img{
+    width: 100%;
+    border-radius: 10px;
+}
+.personal-image{
+    height: 90%;
+    padding-left: 100px;
+}
+.about-section{
+    padding-top: 200px;
+}
+.about-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.recipie-box{
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 20px;
+    
+   
+}
+.recipie-sec{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+.recipie-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.socialmedia-section{
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin: 0px 100px 150px 100px;
+    border-radius: 20px;
+    
+
+}
+.socialmedia-width{
+    width: 30%;
+    padding: 20px 100px 20px 100px;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+footer p{
+    color: wheat;
+    font-size: 20px;
+
+    
+}
+#network{
+    color: gray;
+}
